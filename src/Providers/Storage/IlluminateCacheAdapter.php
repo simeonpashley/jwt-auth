@@ -16,7 +16,7 @@ use Tymon\JWTAuth\Contracts\Providers\Storage;
 use Psr\SimpleCache\CacheInterface as PsrCacheInterface;
 use Illuminate\Contracts\Cache\Repository as CacheContract;
 
-class Illuminate implements Storage
+class IlluminateCacheAdapter implements Storage
 {
     /**
      * The cache repository contract.

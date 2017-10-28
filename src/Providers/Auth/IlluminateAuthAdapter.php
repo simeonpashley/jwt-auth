@@ -14,7 +14,7 @@ namespace Tymon\JWTAuth\Providers\Auth;
 use Tymon\JWTAuth\Contracts\Providers\Auth;
 use Illuminate\Contracts\Auth\Guard as GuardContract;
 
-class Illuminate implements Auth
+class IlluminateAuthAdapter implements Auth
 {
     /**
      * The authentication guard.
